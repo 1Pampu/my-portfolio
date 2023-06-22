@@ -49,12 +49,14 @@ ul{
 
 li{
     color: blueviolet;
-    text-align: center;
+
     flex-grow: 1;
     height: 100%;
 }
 
 li a{
+    border: 5px solid rgb(29, 29, 29);
+    border-radius: 5px;
     font-size: large;
     font-weight: bold;
     background-color: rgb(29, 29, 29);
@@ -64,6 +66,7 @@ li a{
     text-decoration: none;
     width: 100%;
     height: 100%;
+    box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
@@ -73,11 +76,8 @@ li a{
 }
 
 li a:hover{
-    background-color: blueviolet;
-    color: rgb(29, 29, 29);
-}
-
-li a.active{
+    border: 5px solid blueviolet;
+    border-radius: 6px;
     background-color: blueviolet;
     color: rgb(29, 29, 29);
 }
@@ -90,6 +90,7 @@ section.full-height{
     height: 100%;
 }
 
-section.full-height p{
+h1{
+    color: rgb(205, 205, 205);
     margin: 0;
 }
