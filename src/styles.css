@@ -55,7 +55,7 @@ li{
 }
 
 li a{
-    font-size: xx-large;
+    font-size: large;
     font-weight: bold;
     background-color: rgb(29, 29, 29);
     display: flex;
