@@ -55,6 +55,7 @@ li{
 }
 
 li a{
+    color: blueviolet;
     border: 5px solid rgb(29, 29, 29);
     border-radius: 5px;
     font-size: large;
