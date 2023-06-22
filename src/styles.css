@@ -66,6 +66,12 @@ li a{
     height: 100%;
 }
 
+@media (min-width: 768px) {
+    li a {
+        font-size: xx-large;
+    }
+}
+
 li a:hover{
     background-color: blueviolet;
     color: rgb(29, 29, 29);
