@@ -79,11 +79,7 @@ li a:hover{
     border: 5px solid blueviolet;
     border-radius: 6px;
     background-color: blueviolet;
-    color: rgb(29, 29, 29);
-}
-
-a:visited{
-    color: blueviolet;
+    color: rgb(29, 29, 29) !important;
 }
 
 section.full-height{
