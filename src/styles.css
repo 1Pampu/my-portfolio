@@ -5,6 +5,7 @@ html,body{
     height: 100%;
     margin:0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 main{
@@ -49,7 +50,6 @@ ul{
 
 li{
     color: blueviolet;
-
     flex-grow: 1;
     height: 100%;
 }
@@ -83,7 +83,7 @@ li a:hover{
 }
 
 a:visited{
-    color: inherit;
+    color: blueviolet;
 }
 
 section.full-height{
