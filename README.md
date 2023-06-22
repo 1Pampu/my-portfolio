@@ -8,7 +8,7 @@ This project is a personal portfolio created using HTML and CSS. It showcases my
 * [Portfolio web](https://1pampu.github.io/my-portfolio/)
 
 ## See live Example
-- [GitHubPagesLink]([LINK HERE](https://1pampu.github.io/my-portfolio/))
+- [GitHubPagesLink](https://1pampu.github.io/my-portfolio/)
 
 ## Hiring
 If you want to hire me, you can email me at piampianimartin@gmail.com for inquiries.
