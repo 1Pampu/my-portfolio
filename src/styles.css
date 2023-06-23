@@ -13,16 +13,14 @@ main{
     height: 94%;
 }
 
-#first-section {
-    background-color: rgb(29, 29, 29);
+#second-reference{
+    position: absolute;
+    bottom: 60px;
 }
 
-#second-section {
-    background-color: rgb(29, 29, 29);
-}
-
-#third-section {
-    background-color: rgb(29, 29, 29);
+#third-reference{
+    position: absolute;
+    bottom: 60px;
 }
 
 header{
@@ -31,6 +29,7 @@ header{
     width: 100%;
     position: fixed;
     top:0;
+    z-index: 9999;
 }
 
 nav{
@@ -69,12 +68,6 @@ li a{
     box-sizing: border-box;
 }
 
-@media (min-width: 768px) {
-    li a {
-        font-size: xx-large;
-    }
-}
-
 li a:hover{
     border: 5px solid blueviolet;
     border-radius: 6px;
@@ -83,10 +76,31 @@ li a:hover{
 }
 
 section.full-height{
+    position: relative;
     height: 100%;
+    background-color: rgb(29, 29, 29);
 }
 
 h1{
     color: rgb(205, 205, 205);
     margin: 0;
+    font-size: large;
+}
+
+p{
+    color: rgb(205, 205, 205);
+    font-size: small;
+}
+
+@media (min-width: 768px) {
+    li a {
+        font-size: xx-large;
+    }
+    p{
+        font-size: medium;
+    }
+    h1{
+        letter-spacing: 15px;
+        font-size: 80px;
+    }
 }
