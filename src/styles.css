@@ -123,19 +123,35 @@ p{
     background-color: blueviolet;
 }
 
+#welcome-container::before{
+    content: "";
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    z-index:-1;
+    background-color: blueviolet;
+}
+
 .icons-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 15px;
     padding-bottom: 10px;
-  }
+}
 
 .icons-container a {
     display: inline-block;
     margin: 0 35px;
     font-size: 20px;
-  }
+    transition: transform 0.3s ease;
+}
+
+.icons-container a:hover {
+    transform: scale(1.2);
+}
 
 
 @media (min-width: 768px) {
@@ -153,3 +169,4 @@ p{
     font-size: 35px;
     }
 }
+
