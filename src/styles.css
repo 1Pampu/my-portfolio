@@ -8,6 +8,10 @@ html,body{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: rgb(29, 29, 29);
+}
+
 main{
     padding-top: 60px;
     height: 94%;
@@ -89,18 +93,63 @@ h1{
 
 p{
     color: rgb(205, 205, 205);
-    font-size: small;
+    font-size:small;
 }
+
+#first-section{
+    box-sizing: border-box;
+    padding: 5% 10% 5% 10%;
+    background-color: transparent;
+}
+
+#welcome-container{
+    background-color: rgb(29, 29, 29);
+    box-sizing: border-box;
+    box-shadow: 0 0 0 5px rgb(29, 29, 29) inset,
+                0 0 0 12px blueviolet inset;
+    margin: auto;
+    padding: 2% 5% 3% 5%;
+    position: relative;
+}
+
+#welcome-container::after{
+    content: "";
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    z-index:-1;
+    background-color: blueviolet;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+.icons-container a {
+    display: inline-block;
+    margin: 0 35px;
+    font-size: 20px;
+  }
+
 
 @media (min-width: 768px) {
     li a {
         font-size: xx-large;
     }
     p{
-        font-size: medium;
+        font-size: large;
     }
     h1{
         letter-spacing: 15px;
         font-size: 80px;
+    }
+    .icons-container a {
+    font-size: 35px;
     }
 }
