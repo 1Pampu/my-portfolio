@@ -60,7 +60,7 @@ li a{
     color: blueviolet !important;
     border: 5px solid rgb(29, 29, 29);
     border-radius: 5px;
-    font-size: large;
+    font-size: xx-large;
     font-weight: bold;
     background-color: rgb(29, 29, 29);
     display: flex;
@@ -88,12 +88,13 @@ section.full-height{
 h1{
     color: rgb(205, 205, 205);
     margin: 0;
-    font-size: large;
+    letter-spacing: 15px;
+    font-size: 80px;
 }
 
 p{
     color: rgb(205, 205, 205);
-    font-size:small;
+    font-size:large;
 }
 
 #first-section{
@@ -145,7 +146,7 @@ p{
 .icons-container a {
     display: inline-block;
     margin: 0 35px;
-    font-size: 20px;
+    font-size: 35px;
     transition: transform 0.3s ease;
 }
 
@@ -153,20 +154,42 @@ p{
     transform: scale(1.2);
 }
 
-
-@media (min-width: 768px) {
-    li a {
-        font-size: xx-large;
-    }
-    p{
-        font-size: large;
-    }
-    h1{
-        letter-spacing: 15px;
-        font-size: 80px;
-    }
-    .icons-container a {
-    font-size: 35px;
-    }
+div#welcome-container footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
 }
 
+div#welcome-container footer a{
+    display: inline-block;
+    margin-top: 1%;
+    margin-bottom: 0;
+    color: rgb(205, 205, 205);
+}
+
+div#welcome-container footer a:visited{
+    color: rgb(205, 205, 205);
+}
+
+a.cv-download{
+    display: flex;
+    background-color: blueviolet;
+    border: 5px solid blueviolet;
+    color: rgb(29, 29, 29) ;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 35%;
+    height: 10%;
+    margin: auto;
+    margin-top: 3%;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.cv-download:hover{
+    background-color: rgb(29, 29, 29);
+    color: blueviolet ;
+}
