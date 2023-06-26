@@ -195,3 +195,8 @@ a.cv-download{
     background-color: rgb(29, 29, 29);
     color: blueviolet;
 }
+
+section#second-section article img{
+    width: 500px;
+    height: auto;
+}
