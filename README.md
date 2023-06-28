@@ -1,7 +1,7 @@
 ## Description
 This project is a personal portfolio created using HTML and CSS. It showcases my work, skills, and experience in a visually appealing manner.
 
-## Author 
+## Author
 **Martín Piampiani**
 
 * [LinkedIn](https://www.linkedin.com/in/martin-piampiani)
