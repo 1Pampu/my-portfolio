@@ -212,6 +212,10 @@ div.projects-container{
     margin-bottom: 2%;
 }
 
+section#second-section h1{
+    margin-left: 2%;
+}
+
 section#second-section article {
     border: 3px solid blueviolet;
     flex:  0 0 20%;
@@ -285,10 +289,15 @@ article a.projectLink{
 
 section#second-section article:hover a.projectLink{
     color: blueviolet;
-    
 }
 
 article a.projectLink h2{
     margin-top: 0;
     margin-bottom: 0;
+}
+/* SECOND SECTION END HERE */
+
+/* THIRD SECTION START HERE*/
+section#third-section h1{
+    margin-left: 2%;
 }
