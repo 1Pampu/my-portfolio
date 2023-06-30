@@ -315,10 +315,22 @@ div.skills-container article ul li{
 }
 
 div.skills-container article{
-
-    background-color: green;
+    width: 30%;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
-div.skills-container article h2{
-    text-align: center;
+div.skills-container article div.skill-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+div.skills-container article ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
 }
