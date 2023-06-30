@@ -52,11 +52,11 @@ header{
     z-index: 9999;
 }
 
-nav{
+header nav{
     height: 100%;
 }
 
-ul{
+header nav ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -67,12 +67,12 @@ ul{
     padding: 0;
 }
 
-li{
+header nav ul li{
     flex-grow: 1;
     height: 100%;
 }
 
-li a{
+header nav ul li a{
     color: blueviolet !important;
     border: 5px solid rgb(29, 29, 29);
     border-radius: 5px;
@@ -89,7 +89,7 @@ li a{
     transition: border-color 0.3s ease-out,background-color 0.3s ease-out, color 0.3s ease-out;
 }
 
-li a:hover{
+header nav ul li a:hover{
     border-color: blueviolet;
     border-radius: 6px;
     background-color: blueviolet;
@@ -300,4 +300,25 @@ article a.projectLink h2{
 /* THIRD SECTION START HERE*/
 section#third-section h1{
     margin-left: 2%;
+}
+
+div.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+div.skills-container article ul li{
+    color: rgb(205, 205, 205);
+}
+
+div.skills-container article{
+
+    background-color: green;
+}
+
+div.skills-container article h2{
+    text-align: center;
 }
