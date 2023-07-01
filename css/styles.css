@@ -312,6 +312,12 @@ div.skills-container{
 
 div.skills-container article ul li{
     color: rgb(205, 205, 205);
+    text-align: center;
+}
+
+div.skills-container article ul li::before{
+    content: "\2022";
+    margin-right: 5px;
 }
 
 div.skills-container article{
@@ -333,4 +339,5 @@ div.skills-container article ul{
     align-items: center;
     flex-direction: column;
     padding: 0;
+    list-style-type: none;
 }
