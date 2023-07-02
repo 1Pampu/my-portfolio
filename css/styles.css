@@ -321,7 +321,7 @@ div.skills-container article ul li::before{
 }
 
 div.skills-container article{
-    width: 30%;
+    flex:  0 0 30%;
     margin-bottom: 30px;
     margin-top: 30px;
 }
@@ -340,4 +340,41 @@ div.skills-container article ul{
     flex-direction: column;
     padding: 0;
     list-style-type: none;
+}
+
+/* THIRD SECTION END HERE */
+
+/* RESPONISVE CODE START HERE */
+@media (max-width: 767px){
+    /* header responsive */
+    header{
+        height: 30px;
+    }
+    main{
+        padding-top: 30px;
+    }
+    #Projects{
+        bottom: 30px;
+    }
+    #Skills{
+        bottom: 30px;
+    }
+    header nav ul li a{
+        font-size: medium;
+    }
+
+
+    /* SECTION 1 RESPONSIVE */
+    h1{
+        font-size: large;
+        letter-spacing: 5px;
+        margin: 5px;
+    }
+    p{
+        font-size: smaller;
+    }
+    .icons-container a{
+        font-size: 15px;
+        margin: 0 10px;
+    }
 }
