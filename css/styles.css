@@ -348,16 +348,16 @@ div.skills-container article ul{
 @media (max-width: 767px){
     /* header responsive */
     header{
-        height: 30px;
+        height: 45px;
     }
     main{
-        padding-top: 30px;
+        padding-top: 45px;
     }
     #Projects{
-        bottom: 30px;
+        bottom: 45px;
     }
     #Skills{
-        bottom: 30px;
+        bottom: 45px;
     }
     header nav ul li a{
         font-size: medium;
@@ -365,16 +365,16 @@ div.skills-container article ul{
 
 
     /* SECTION 1 RESPONSIVE */
-    #first-section{
-        padding: 3% 4% 3% 4%;
-    }
     h1{
         font-size: large;
         letter-spacing: 5px;
         margin: 5px;
     }
     p{
-        font-size: smaller;
+        font-size: x-small;
+    }
+    #welcome-container{
+        padding: 4% 7% 4% 7%;
     }
     .icons-container a{
         font-size: 15px;
@@ -384,5 +384,9 @@ div.skills-container article ul{
         width: 50%;
         font-size: large;
         height: 50px;
+        margin-top: 7%;
+    }
+    #welcome-container #hideable{
+        display: none;
     }
 }
