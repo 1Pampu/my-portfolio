@@ -386,7 +386,8 @@ div.skills-container article ul{
         height: 50px;
         margin-top: 7%;
     }
-    #welcome-container #hideable{
-        display: none;
+    div#welcome-container footer a{
+        font-size: xx-small;
+        margin-bottom: 15px;
     }
 }
