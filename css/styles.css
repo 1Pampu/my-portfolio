@@ -201,9 +201,9 @@ a.cv-download{
     background-color: rgb(29, 29, 29);
     color: blueviolet;
 }
-    /* First Sections End Here*/
+/* FIRST SECTION END HERE */
 
-    /* Second Section Start Here*/
+/* SECOND SECTION START HERE */
 div.projects-container{
     display: flex;
     flex-wrap: wrap;
@@ -218,6 +218,7 @@ section#second-section h1{
 
 section#second-section article {
     border: 3px solid blueviolet;
+    min-width: 200px;
     flex:  0 0 20%;
     position: relative;
     box-sizing: border-box;
@@ -389,5 +390,22 @@ div.skills-container article ul{
     div#welcome-container footer a{
         font-size: xx-small;
         margin-bottom: 15px;
+    }
+
+    /* SECTION 2 RESPONSIVE */
+    section#second-section article{
+        flex:  0 0 75%;
+    }
+
+    /* SECTION 3 RESPONSIVE */
+    div.skills-container article{
+        flex:  0 0 50%;
+    }
+    div.skills-container article ul li{
+        font-size: small;
+    }
+    div.skills-container article div img{
+        width: 65px;
+        height: 65px;
     }
 }
