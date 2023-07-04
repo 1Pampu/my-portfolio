@@ -32,10 +32,6 @@ p{
 }
 
 /* Empty Divs in order to scroll to the different parts of the portfolio*/
-#Projects{
-    position: absolute;
-    bottom: 60px;
-}
 
 #Skills{
     position: absolute;
@@ -213,6 +209,7 @@ div.projects-container{
 
 section#second-section h1{
     margin-left: 2%;
+    margin-top: 75px;
 }
 
 section#second-section article {
