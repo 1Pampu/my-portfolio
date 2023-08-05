@@ -292,6 +292,10 @@ article a.projectLink h2{
     margin-top: 0;
     margin-bottom: 0;
 }
+
+.fa-solid.fa-link.fa-lg{
+    font-size: x-large;
+}
 /* SECOND SECTION END HERE */
 
 /* THIRD SECTION START HERE*/
