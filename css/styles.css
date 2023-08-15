@@ -143,6 +143,7 @@ section.full-height{
     align-items: center;
     padding-top: 15px;
     padding-bottom: 10px;
+    margin: 25px
 }
 
 .icons-container a {
@@ -184,7 +185,7 @@ a.cv-download{
     width: 35%;
     height: 10%;
     margin: auto;
-    margin-top: 3%;
+    margin-top: 6%;
     font-size: xx-large;
     align-items: center;
     justify-content: center;
@@ -409,4 +410,16 @@ div.skills-container article ul{
         width: 65px;
         height: 65px;
     }
+}
+
+/* Button Styles */
+#translate{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
 }
