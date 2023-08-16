@@ -317,6 +317,13 @@ div.skills-container article ul li{
     text-align: center;
 }
 
+div.skills-container article ul li p{
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
 div.skills-container article ul li::before{
     content: "\2022";
     margin-right: 5px;
@@ -406,6 +413,14 @@ div.skills-container article ul{
     div.skills-container article ul li{
         font-size: small;
     }
+
+    div.skills-container article ul li p{
+        display: inline-block;
+        margin-bottom: 0;
+        margin-top: 5px;
+        font-size: small;
+    }
+
     div.skills-container article div img{
         width: 65px;
         height: 65px;
