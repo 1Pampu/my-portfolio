@@ -44,8 +44,15 @@ const translates =
 }
 
 function update(){
-    if (language == "en"){language = "es"}
-    else{language = "en"}
+    var descargaCV = document.getElementById("cv-download")
+    if (language == "en"){
+        descargaCV.href = "src/CV Spanish.pdf"
+        language = "es"
+    }
+    else{
+        descargaCV.href = "src/CV English.pdf"
+        language = "en"
+    }
     const elements = document.querySelectorAll('p, h1, h2, a')
     for (let i = 0; i < elements.length; i++) {
         const content = elements[i].innerText;
