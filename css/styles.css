@@ -96,6 +96,7 @@ header nav ul li a:hover{
 section.full-height{
     position: relative;
     background-color: rgb(29, 29, 29);
+    height: 100vh;
 }
 
     /* First Sections Start Here*/
