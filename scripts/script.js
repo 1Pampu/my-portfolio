@@ -67,5 +67,3 @@ function update(){
             }
         }
 }}
-
-// TODO: Fix projects margin
