@@ -33,7 +33,7 @@ p{
 
 /* Empty Divs in order to scroll to the different parts of the portfolio*/
 
-#Skills{
+#Skills,#Projects{
     position: absolute;
     bottom: 60px;
 }
@@ -96,7 +96,7 @@ header nav ul li a:hover{
 section.full-height{
     position: relative;
     background-color: rgb(29, 29, 29);
-    height: 100vh;
+    min-height: 100vh;
 }
 
     /* First Sections Start Here*/
@@ -211,7 +211,6 @@ div.projects-container{
 
 section#second-section h1{
     margin-left: 2%;
-    margin-top: 60px;
 }
 
 section#second-section article {
@@ -402,12 +401,12 @@ div.skills-container article ul{
     }
 
     /* SECTION 2 RESPONSIVE */
-    section#second-section article{
+     section#second-section article{
         flex:  0 0 45%;
         min-width: 250px;
     }
 
-    /* SECTION 3 RESPONSIVE */
+    /*SECTION 3 RESPONSIVE */
     div.skills-container article{
         flex:  0 0 50%;
     }
