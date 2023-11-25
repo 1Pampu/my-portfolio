@@ -28,10 +28,19 @@ h1{
     font-size: 36px;
 }
 
+h2{
+    margin: 0;
+    color: var(--color-primario-apagado)
+}
+
 p{
     color: var(--color-secundario);
     margin: 0;
     font-size: 19px;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* Start about me */
@@ -97,3 +106,48 @@ p{
 }
 
 /* Projects */
+.project-image{
+    margin: 0;
+    max-width: 350px;
+    min-width: 320px;
+    flex: 1;
+}
+
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.project-container > * {
+    flex: 1;
+    margin: 5px;
+}
+
+.project-container p{
+    font-size: 13px;
+}
+
+.project-container h2{
+    font-size: 20px;
+}
+
+.project-description{
+    max-width: 375px;
+    min-width: 200px;
+    flex-grow: 1;
+}
+
+.project-tech{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.project-tech i{
+    color: white;
+    font-size: 35px;
+    margin: 5px;
+}
