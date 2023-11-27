@@ -113,7 +113,7 @@ a{
 }
 
 /* Skills */
-/* ! ALIGN  */
+/* ! ALIGN , BOLD TEXT */
 .skills-container{
     display: flex;
     justify-content: center;
@@ -211,3 +211,10 @@ a{
 }
 
 /* ! BACKGROUND COLOR BLACK */
+/* .container:hover{
+background-color: black;
+}
+
+.project-container:hover{
+    background-color: var(--color-fondo);
+} */
