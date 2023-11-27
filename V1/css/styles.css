@@ -1,0 +1,445 @@
+/* Imported Font*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* General Styles*/
+html,body{
+    font-family: 'Roboto Mono', monospace;
+    height: 100%;
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+}
+
+main{
+    padding-top: 60px;
+    height: 94%;
+}
+
+h1{
+    color: rgb(205, 205, 205);
+    margin: 0;
+    letter-spacing: 15px;
+    font-size: 80px;
+}
+
+p{
+    color: rgb(205, 205, 205);
+    font-size:large;
+}
+
+/* Empty Divs in order to scroll to the different parts of the portfolio*/
+
+#Skills,#Projects{
+    position: absolute;
+    bottom: 60px;
+}
+#MainDv{
+    position:absolute;
+    top: 0;
+}
+
+
+/* Header Styles*/
+header{
+    background-color: rgb(29, 29, 29);
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 9999;
+}
+
+header nav{
+    height: 100%;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li{
+    flex-grow: 1;
+    height: 100%;
+}
+
+header nav ul li a{
+    color: blueviolet !important;
+    border: 5px solid rgb(29, 29, 29);
+    border-radius: 5px;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-out,background-color 0.3s ease-out, color 0.3s ease-out;
+}
+
+header nav ul li a:hover{
+    border-color: blueviolet;
+    border-radius: 6px;
+    background-color: blueviolet;
+    color: rgb(29, 29, 29) !important;
+}
+
+/* Sections General */
+section.full-height{
+    position: relative;
+    background-color: rgb(29, 29, 29);
+    min-height: 100vh;
+}
+
+    /* First Sections Start Here*/
+#first-section{
+    box-sizing: border-box;
+    padding: 5% 10% 5% 10%;
+    background-color: transparent;
+}
+
+#welcome-container{
+    background-color: rgb(29, 29, 29);
+    box-sizing: border-box;
+    box-shadow: 0 0 0 5px rgb(29, 29, 29) inset,
+                0 0 0 12px blueviolet inset;
+    margin: auto;
+    padding: 2% 5% 3% 5%;
+    position: relative;
+}
+
+#welcome-container::after{
+    content: "";
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    z-index:-1;
+    background-color: blueviolet;
+}
+
+#welcome-container::before{
+    content: "";
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    z-index:-1;
+    background-color: blueviolet;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin: 25px
+}
+
+.icons-container a {
+    display: inline-block;
+    margin: 0 35px;
+    font-size: 35px;
+    transition: transform 0.3s ease;
+}
+
+.icons-container a:hover {
+    transform: scale(1.2);
+}
+
+div#welcome-container footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+div#welcome-container footer a{
+    display: inline-block;
+    margin-top: 1%;
+    margin-bottom: 0;
+    color: rgb(205, 205, 205);
+}
+
+div#welcome-container footer a:visited{
+    color: rgb(205, 205, 205);
+}
+
+a.cv-download{
+    display: flex;
+    background-color: blueviolet;
+    border: 5px solid blueviolet;
+    color: rgb(29, 29, 29) ;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 35%;
+    height: 10%;
+    margin: auto;
+    margin-top: 6%;
+    font-size: xx-large;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: background-color 0.4s ease-out ,color 0.4s ease-out;
+}
+
+.cv-download:hover{
+    background-color: rgb(29, 29, 29);
+    color: blueviolet;
+}
+/* FIRST SECTION END HERE */
+
+/* SECOND SECTION START HERE */
+div.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+section#second-section h1{
+    margin-left: 2%;
+}
+
+section#second-section article {
+    border: 3px solid blueviolet;
+    flex:  0 0 20%;
+    min-width: 400px;
+    position: relative;
+    box-sizing: border-box;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 10px;
+    transition: border-color 0.4s ease;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+section#second-section article:hover{
+    border-color: rgb(205, 205, 205);
+}
+
+section#second-section article img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image-container{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98.4%;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.80);
+    transition: opacity 0.4s ease;
+    border-radius: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+article:hover .overlay {
+    opacity: 1;
+}
+
+.icons{
+    color: rgb(205, 205, 205);
+}
+
+.overlay-icons{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.overlay a{
+    color:rgb(205, 205, 205);
+    margin-top: 20px;
+}
+
+article a.projectLink{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(205, 205, 205);
+    transition: color 0.4s ease;
+    display: block;
+    padding: 10px;
+}
+
+section#second-section article:hover a.projectLink{
+    color: blueviolet;
+}
+
+article a.projectLink h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.fa-solid.fa-link.fa-lg{
+    font-size: x-large;
+}
+/* SECOND SECTION END HERE */
+
+/* THIRD SECTION START HERE*/
+section#third-section h1{
+    margin-left: 2%;
+}
+
+div.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+div.skills-container article ul li{
+    color: rgb(205, 205, 205);
+    text-align: center;
+}
+
+div.skills-container article ul li p{
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+div.skills-container article ul li::before{
+    content: "\2022";
+    margin-right: 5px;
+}
+
+div.skills-container article{
+    flex:  0 0 30%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+div.skills-container article div.skill-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+div.skills-container article ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* THIRD SECTION END HERE */
+
+/* RESPONISVE CODE START HERE */
+@media (max-width: 767px){
+    /* header responsive */
+    header{
+        height: 45px;
+    }
+    main{
+        padding-top: 45px;
+    }
+    #Projects{
+        bottom: 45px;
+    }
+    #Skills{
+        bottom: 45px;
+    }
+    header nav ul li a{
+        font-size: medium;
+    }
+
+
+    /* SECTION 1 RESPONSIVE */
+    h1{
+        font-size: large;
+        letter-spacing: 5px;
+        margin: 5px;
+    }
+    p{
+        font-size: x-small;
+    }
+    #welcome-container{
+        padding: 4% 7% 4% 7%;
+    }
+    .icons-container a{
+        font-size: 15px;
+        margin: 0 10px;
+    }
+    a.cv-download{
+        width: 50%;
+        font-size: large;
+        height: 50px;
+        margin-top: 7%;
+    }
+    div#welcome-container footer a{
+        font-size: xx-small;
+        margin-bottom: 15px;
+    }
+
+    /* SECTION 2 RESPONSIVE */
+     section#second-section article{
+        flex:  0 0 45%;
+        min-width: 250px;
+    }
+
+    /*SECTION 3 RESPONSIVE */
+    div.skills-container article{
+        flex:  0 0 50%;
+    }
+    div.skills-container article ul li{
+        font-size: small;
+    }
+
+    div.skills-container article ul li p{
+        display: inline-block;
+        margin-bottom: 0;
+        margin-top: 5px;
+        font-size: small;
+    }
+
+    div.skills-container article div img{
+        width: 65px;
+        height: 65px;
+    }
+}
+
+/* Button Styles */
+#translate{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+}

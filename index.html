@@ -1,151 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/styles.css">
-        <title>My Portfolio</title>
-        <script src="https://kit.fontawesome.com/cf457e58c8.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div id="MainDv"></div>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href="#MainDv" class="nav-link">&lt;Main&gt;</a></li>
-                    <li><a href="#Projects" class="nav-link">&lt;Projects&gt;</a></li>
-                    <li><a href="#Skills" class="nav-link">&lt;Skills&gt;</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <main>
-            <section class="full-height" id="first-section">
-                <div id="welcome-container">
-                    <h1>Welcome!</h1>
-                    <p> Hello! I'm Martín Piampiani, a backend developer based in
-                        Argentina. I'm dedicated to honing my skills in backend
-                        development and actively seeking opportunities to
-                        contribute to diverse projects. Despite being new to the
-                        field, I'm passionate about learning and growing in this industry.</p>
-                    <p> Feel free to let me know if there's anything else I can
-                        assist you with!</p>
-                    <div class="icons-container">
-                        <a href="whatsapp://send?phone=+542932458108"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #cdcdcd;"></i></a>
-                        <a href="mailto:piampianimartin@gmail.com"><i class="fa-solid fa-envelope fa-2xl" style="color: #cdcdcd;"></i></a>
-                        <a href="https://www.linkedin.com/in/martin-piampiani/"><i class="fa-brands fa-linkedin fa-2xl" style="color: #cdcdcd;"></i></a>
-                        <a href="https://github.com/1Pampu"><i class="fa-brands fa-github fa-2xl" style="color: #cdcdcd;"></i></a>
-                    </div>
-                    <footer><a href="mailto:piampianimartin@gmail.com">piampianimartin@gmail.com</a></footer>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/cf457e58c8.js" crossorigin="anonymous"></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="about-container container">
+        <!-- IMAGE  175 x 175 -->
+        <img src="img/DSCN1927.JPG" class="photo" alt="Martin Piampiani Image">
+        <div class="content">
+            <h1>Martín Piampiani</h1>
+            <p>Aspiring backend developer, committed to coding excellence.</p>
+            <a href="src/CV English.pdf" download class="cv-download" id="cv-download">Resume</a>
+        </div>
+    </div>
+    <div class="container social-container">
+        <h1>Socials</h1>
+        <div class="flex-socials">
+            <a href="https://github.com/1Pampu" class="a-social">
+                <div class="img-txt" style="border-color: #e6edf3;">
+                    <i class="fa-brands fa-github icon" style="color: #e6edf3;"></i>
+                    <span style="color: #e6edf3;">GitHub</span>
                 </div>
-                <a href="src/CV English.pdf" download class="cv-download" id="cv-download">Download CV</a>
-                <div id="Projects"></div>
-            </section>
-
-
-            <section class="full-height" id="second-section">
-                <h1>Projects</h1>
-
-                <div class="projects-container">
-
-                <article>
-                    <div class="image-container">
-                        <img src="img\PokeGuessTemplate.webp" alt="Poke Guess Template">
-                        <div class="overlay">
-                            <div class="overlay-icons">
-                                <i class="fa-brands fa-square-js fa-2xl icons"></i>
-                                <i class="fa-brands fa-html5 fa-2xl icons"></i>
-                                <i class="fa-brands fa-css3-alt fa-2xl icons"></i>
-                            </div>
-                            <a href="https://github.com/1Pampu/poke-guess">View repository on GitHub</a>
-                        </div>
-                    </div>
-                    <a href="https://1pampu.github.io/poke-guess/" class="projectLink"><h2>Poke Guess! <i class="fa-solid fa-link fa-lg"></i></h2></a>
-                </article>
-
-                <article>
-                    <div class="image-container">
-                        <img src="img\PokeAPItemplate.webp" alt="Poke API Template">
-                        <div class="overlay">
-                            <div class="overlay-icons">
-                                <i class="fa-brands fa-python fa-2xl icons"></i>
-                            </div>
-                            <a href="https://github.com/1Pampu/my-poke-api">View repository on GitHub</a>
-                        </div>
-                    </div>
-                    <a href="https://my-poke-api.onrender.com/" class="projectLink"><h2>My Poke API! <i class="fa-solid fa-link fa-lg"></i></h2></a>
-                </article>
-
-                <article>
-                    <div class="image-container">
-                        <img src="img/PortfolioTemplate.webp" alt="Project 1 Template">
-                        <div class="overlay">
-                            <div class="overlay-icons">
-                                <i class="fa-brands fa-html5 fa-2xl icons"></i>
-                                <i class="fa-brands fa-css3-alt fa-2xl icons"></i>
-                                <i class="fa-brands fa-square-js fa-2xl icons"></i>
-                            </div>
-                            <a href="https://github.com/1Pampu/my-portfolio">View repository on GitHub</a>
-                        </div>
-                    </div>
-                    <a href="https://1pampu.github.io/my-portfolio" class="projectLink"><h2>Portfolio <i class="fa-solid fa-link fa-lg"></i></h2></a>
-                </article>
-
+            </a>
+            <a href="https://www.linkedin.com/in/martin-piampianii/" class="a-social">
+                <div class="img-txt" style="border-color: #0A66C2;" >
+                    <i class="fa-brands fa-linkedin icon" style="color: #0A66C2;"></i>
+                    <span style="color: #0A66C2;">LinkedIn</span>
                 </div>
-                <div id="Skills"></div>
-            </section>
-
-            <section class="full-height" id="third-section">
-                <h1>Skills</h1>
-
-                <div class="skills-container">
-                    <article class="skill">
-                        <div class="skill-img-container">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="80" height="80"/>
-                        </div>
-                        <ul>
-                            <li><p>API Rest with FastAPI</p></li>
-                            <li><p>Data Manipulation and analysis</p></li>
-                            <li><p>Pandas, Numpy, Scikit-learn</p></li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <div class="skill-img-container">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="80" height="80"/>
-                        </div>
-                        <ul>
-                            <li><p>Proficient in object-oriented programming</p></li>
-                            <li><p>Windows Forms applications</p></li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <div class="skill-img-container">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="80" height="80"/>
-                        </div>
-                        <ul>
-                            <li><p>Database Managment</p></li>
-                            <li><p>SQL Queries</p> </li>
-                            <li><p>Database Designs</p></li>
-                        </ul>
-                    </article>
-
-                    <article>
-                        <div class="skill-img-container">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="80" height="80"/>
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="80" height="80"/>
-                        </div>
-                        <ul>
-                            <li><p>Responsive Design</p></li>
-                        </ul>
-                    </article>
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=+54%202932%20458108&text=Hola!" class="a-social">
+                <div class="img-txt" style="border-color: #25D366;">
+                    <i class="fa-brands fa-whatsapp icon" style="color: #25D366;" ></i>
+                    <span style="color: #25D366;">WhatsApp</span>
                 </div>
-
-            </section>
-        </main>
-        <button id="translate" onclick="update()"><i class="fa-solid fa-language fa-2xl" style="color: #3677e7;"></i></button>
-        <script src="scripts/script.js"></script>
-    </body>
-
+            </a>
+            <a href="https://discordapp.com/users/485605121506541579" class="a-social">
+                <div class="img-txt" style="border-color: #5865F2;">
+                    <i class="fa-brands fa-discord icon" style="color: #5865F2;"></i>
+                    <span style="color: #5865F2;">Discord</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Technologies</h1>
+        <div class="skills-container">
+            <article class="tech-container">
+                <a href="https://www.python.org/">
+                    <img src="https://skillicons.dev/icons?i=python" alt="Python Icon" />
+                    <p>Python</p>
+                </a>
+            </article>
+            <article class="tech-container">
+                <a href="https://dotnet.microsoft.com/es-es/languages/csharp">
+                    <img src="https://skillicons.dev/icons?i=cs" alt="C# Icon" />
+                    <p>C#</p>
+                </a>
+            </article>
+            <article class="tech-container">
+                <a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+                    <img src="https://skillicons.dev/icons?i=js" alt="JS Icon" />
+                    <p>JavaScript</p>
+                </a>
+            </article>
+            <article class="tech-container">
+                <a href="https://www.mysql.com/">
+                    <img src="https://skillicons.dev/icons?i=mysql" alt="MySQL Icon"/>
+                    <p>MySQL</p>
+                </a>
+            </article>
+            <article class="tech-container">
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML">
+                    <img src="https://skillicons.dev/icons?i=html" alt="HTML Icon"/>
+                    <p>HTML</p>
+                </a>
+            </article>
+            <article class="tech-container">
+                <a href="https://developer.mozilla.org/es/docs/Web/CSS">
+                    <img src="https://skillicons.dev/icons?i=css" alt="CSS Icon"/>
+                    <p>CSS</p>
+                </a>
+            </article>
+            <article class="tech-container">
+                <a href="https://git-scm.com/">
+                    <img src="https://skillicons.dev/icons?i=git" alt="Git Icon"/>
+                    <p>Git</p>
+                </a>
+            </article>
+            <article class="tech-container">
+                <a href="https://www.arduino.cc/">
+                    <img src="https://skillicons.dev/icons?i=arduino" alt="Arduino Icon"/>
+                    <p>Arduino</p>
+                </a>
+            </article>
+            <article class="tech-container">
+                <a href="https://www.djangoproject.com/">
+                    <img src="https://skillicons.dev/icons?i=django" alt="Django Icon" />
+                    <p>Django</p>
+                </a>
+            </article>
+            <article class="tech-container">
+                <a href="https://flask.palletsprojects.com/en/3.0.x/">
+                    <img src="https://skillicons.dev/icons?i=flask" alt="Flask Icon"/>
+                    <p>Flask</p>
+                </a>
+            </article>
+            <article class="tech-container">
+                <a href="https://fastapi.tiangolo.com/">
+                    <img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI Icon"/>
+                    <p>Fast API</p>
+                </a>
+            </article>
+        </div>
+    </div>
+    <div class="container projects-container">
+        <h1>Projects</h1>
+        <div class="projects-container-c">
+            <article class="project-container">
+                <!-- IMAGE  1080 x 720, 300 x 200 -->
+                <img src="img/Poke Guess.png"  class="project-image" alt="Poke Guess Image">
+                <div class="project-description">
+                    <h2>Poke Guess!</h2>
+                    <p>
+                        Riddle game, addressing backend and frontend.
+                        I designed and implemented an efficient REST
+                        API to manage the game logic.
+                        On the frontend, I opted for a simple
+                        implementation to ensure functionality without
+                        complications.
+                    </p>
+                    <div class="project-tech">
+                        <i class="fa-brands fa-python"></i>
+                        <i class="fa-brands fa-html5"></i>
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="fa-brands fa-square-js"></i>
+                    </div>
+                    <div class="buttons-container">
+                        <a href="https://1pampu.github.io/poke-guess/" class="project-button">Live</a>
+                        <a href="https://github.com/1Pampu/poke-guess" class="project-button">FrontEnd</a>
+                        <a href="https://github.com/1Pampu/my-poke-api" class="project-button">BackEnd</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
 </html>
