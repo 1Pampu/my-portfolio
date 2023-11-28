@@ -4,6 +4,7 @@
     --color-secundario: #7D8590;
     --color-fondo: #0D1117;
     --color-bordes: #30363D;
+    --color-selected: #06080A;
 }
 
 /* Page Styles */
@@ -20,6 +21,7 @@ body{
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 15px;
+    transition: background-color 0.5s ease;
 }
 
 h1{
@@ -41,6 +43,10 @@ p{
 
 a{
     text-decoration: none;
+}
+
+span{
+    font-weight: 700;
 }
 
 /* Start about me */
@@ -90,12 +96,13 @@ a{
 }
 
 .img-txt{
-    border: 1px solid;
-    border-radius: 20px;
+    border: 2px solid;
+    border-radius: 23px;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 15px;
     padding-right: 15px;
+    transition: transform 0.2s ease;
 }
 
 .img-txt *{
@@ -210,11 +217,27 @@ a{
     margin-bottom: 5px;
 }
 
-/* ! BACKGROUND COLOR BLACK */
-/* .container:hover{
-background-color: black;
+
+/* ANIMATIONS / HOVERS */
+/* BACKGROUND COLOR ON HOVER */
+.container:hover{
+background-color: var(--color-selected);
 }
 
-.project-container:hover{
-    background-color: var(--color-fondo);
+/* SCALE SOCIALS */
+.img-txt:hover{
+    transform: scale(1.2);
+}
+
+/* .cv-download:hover{
+    animation: tilt-shaking;
 } */
+
+/*
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  } */
