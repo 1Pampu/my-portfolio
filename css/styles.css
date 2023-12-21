@@ -20,6 +20,7 @@ body{
     border: 1px solid var(--color-bordes);
     border-radius: 8px;
     padding: 20px;
+    padding-top: 13px;
     margin-bottom: 15px;
     transition: background-color 0.5s ease;
 }
@@ -86,6 +87,7 @@ span{
     border-radius: 6px;
     font-weight:500;
     text-decoration: none;
+    display: inline-block;
 }
 
 /* Socials */
@@ -102,12 +104,66 @@ span{
     padding-bottom: 8px;
     padding-left: 15px;
     padding-right: 15px;
-    transition: transform 0.2s ease;
 }
 
 .img-txt *{
     display: inline-block;
     vertical-align: middle;
+}
+
+.mail-container{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icono-envelope {
+    margin-top: 5px;
+    margin-left: 8px;
+    margin-right: 4px;
+    color: var(--color-primario-apagado);
+    background-color: var(--color-bordes);
+    border: 1px solid var(--color-secundario);
+    color: var(--color-primario-apagado);
+    border-radius: 6px;
+    width: 30px;
+    text-align: center;
+    font-size: 18px;
+    padding: 2px;
+}
+
+.icono-clipboard {
+    margin-top: 5px;
+    margin-left: 4px;
+    margin-right: 8px;
+    color: var(--color-primario-apagado);
+    background-color: var(--color-bordes);
+    border: 1px solid var(--color-secundario);
+    color: var(--color-primario-apagado);
+    border-radius: 6px;
+    width: 36px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.mail{
+    margin-top: 5px;
+    color: var(--color-primario-apagado);
+    background-color: var(--color-bordes);
+    padding: 4px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 6px;
+}
+
+.mail-text{
+    font-weight: 500;
 }
 
 .icon{
@@ -224,20 +280,29 @@ span{
 background-color: var(--color-selected);
 }
 
-/* SCALE SOCIALS */
-.img-txt:hover{
+/* SCALE */
+.scale{
+    transition: transform 0.2s ease;
+}
+
+.scale:hover{
     transform: scale(1.2);
 }
 
-/* .cv-download:hover{
-    animation: tilt-shaking;
-} */
+/* SHAKE */
 
-/*
+.shake{
+    transition: transform 0.25s linear;
+}
+
+.shake:hover{
+    animation: tilt-shaking 0.25s linear infinite;
+}
+
 @keyframes tilt-shaking {
     0% { transform: rotate(0deg); }
     25% { transform: rotate(5deg); }
     50% { transform: rotate(0deg); }
     75% { transform: rotate(-5deg); }
     100% { transform: rotate(0deg); }
-  } */
+}
