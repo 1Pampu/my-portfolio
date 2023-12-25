@@ -247,7 +247,7 @@ span{
     margin: 5px;
 }
 
-.project-tech i{
+.project-tech i, .project-tech svg{
     color: white;
     font-size: 35px;
     margin: 5px;
