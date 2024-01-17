@@ -176,7 +176,6 @@ span{
 }
 
 /* Skills */
-/* ! ALIGN , BOLD TEXT */
 .skills-container{
     display: flex;
     justify-content: center;
@@ -273,6 +272,32 @@ span{
     margin-bottom: 5px;
 }
 
+/* Studies */
+.study-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.study-container > * {
+    flex: 1;
+    margin: 5px;
+}
+
+.studie-logo{
+    border-radius: 50%;
+    border: 3px solid var(--color-bordes);
+    max-width: 95px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+hr.separator {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--color-bordes), rgba(0, 0, 0, 0));
+}
 
 /* ANIMATIONS / HOVERS */
 /* BACKGROUND COLOR ON HOVER */
